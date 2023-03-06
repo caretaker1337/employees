@@ -56,11 +56,12 @@ const options: Configuration = {
   },
   output: {
     asyncChunks: true,
+    clean: true,
     chunkFilename: "js/chunk.[chunkhash].js",
     filename: "js/bundle.js",
     path: resolve(rootDir, "build"),
     pathinfo: false,
-    uniqueName: "reporter",
+    uniqueName: "employees",
   },
   performance: {
     hints: false,

@@ -5,6 +5,7 @@
 
 # Ignore library modules
 node_modules
+yarn.lock
 
 # Ignore bundled distribution
 build
